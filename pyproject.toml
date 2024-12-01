@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "advent-of-code-2024"
+version = "1.0.0"
+description = ""
+authors = ["Marianna <marianna.arvaniti@d-one.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dateutil = "2.8.2"
+xmltodict = "0.13.0"
+chardet = "5.2.0"
+numpy = "*"
