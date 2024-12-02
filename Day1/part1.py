@@ -1,6 +1,6 @@
-from utils import load_input_numeric
+from utils import load_input
 
-col1, col2 = load_input_numeric(filename="input")
+col1, col2 = load_input(filename="input")
 
 col1.sort()
 col2.sort()

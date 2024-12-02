@@ -1,7 +1,7 @@
-from utils import load_input_numeric
+from utils import load_input
 from collections import Counter
 
-col1, col2 = load_input_numeric("input")
+col1, col2 = load_input("input")
 
 # For larger datasets go vectorized
 counts = Counter(col2)
